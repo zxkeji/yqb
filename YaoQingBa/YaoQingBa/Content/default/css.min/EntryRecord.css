@@ -1,0 +1,69 @@
+﻿body {
+    background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .er_total {
+    }
+
+    .entry_record {
+        font-family: 'Microsoft YaHei';
+        width: 600px;
+        margin: 10px auto;
+    }
+
+    .er_title {
+        text-align: center;
+    }
+
+    .er_content {
+        height: 482px;
+        overflow-y: auto;
+        border-left: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+    }
+
+    .er_computer {
+        display: block !important;
+    }
+
+    .er_phone {
+        display: none !important;
+    }
+
+    .er_computertotal {
+        display: block !important;
+        margin-top: 5px;
+    }
+
+    .er_phonetotal {
+        display: none !important;
+    }
+}
+
+.er_title {
+    border-bottom: 2px solid #ddd;
+    font-size: 2.2rem;
+}
+
+.er_phone {
+    display: block;
+}
+
+.er_computer {
+    display: none;
+}
+
+.er_computertotal {
+    display: none;
+}
+
+.er_phonetotal {
+    position: relative;
+    top: 12px;
+}
+
+.er_phone_line1 {
+    padding-bottom: 5px;
+}

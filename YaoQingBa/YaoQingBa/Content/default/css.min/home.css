@@ -1,0 +1,68 @@
+﻿.sy_titlepic {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.sy_titlespan {
+    position: relative;
+    bottom: 13px;
+    left: 10px;
+}
+
+.sy_content {
+    position: relative;
+}
+
+.sy_contenta {
+    position: relative;
+    bottom: 2px;
+}
+
+.sy_pay {
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+}
+
+.sy_last {
+    margin-bottom: 60px;
+}
+
+.sy_bottom {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #fcfcfc;
+    border-top: 1px solid #d7d7d7;
+}
+
+.sy_bottom_details {
+    width: 33%;
+    text-align: center;
+}
+
+    .sy_bottom_details i {
+        font-size: 2.4rem;
+        position: relative;
+        left: 3px;
+    }
+
+.sy_bottom_text {
+    padding-top: 5px;
+}
+
+.sy_home {
+}
+
+.sy_release {
+}
+
+.sy_addr{
+    
+}
+.sy_my {
+}
+section:last-child{
+    margin-bottom: 60px;}

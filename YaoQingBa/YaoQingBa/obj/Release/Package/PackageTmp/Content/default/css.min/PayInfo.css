@@ -1,0 +1,28 @@
+﻿.pi_section {margin-bottom:20px
+}
+.pi_visitinfo {position: relative;
+    left: 10px;
+    padding: 2px 0;
+}
+.pi_visitpay {height: 22px;
+}
+.pi_payproject {    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.pi_pic {
+}
+    .pi_pic img {  width: 116px;
+    height: 74px;
+    }
+.pi_wxpay {
+}
+    .pi_wxpay img {width:35px;
+                   height:35px;
+    }
+        .pi_wxpay span{position: relative;
+    bottom: 14px;}
+.pi_wxpay input {
+    position: relative;
+    top: 12px;
+}

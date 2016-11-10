@@ -1,0 +1,84 @@
+﻿body {
+    font-family: 'Microsoft YaHei';
+}
+
+.withdraws_cash {
+   margin: 0 auto;
+    width: 800px;
+}
+.wc_headbtn {margin-top:25px;
+            
+}
+.wc_list {
+    width: 230px;
+    margin: 10px;
+}
+
+.wc_list_details {
+    height: 396px;
+    font-size:1.2rem;
+}
+
+.wc_ldtitle {
+}
+
+.wc_ldname {
+    width: 56px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.wc_ldtime {
+}
+
+.wc_ldpay {
+    font-size: 1.8rem;
+    margin: 5px 0;
+}
+
+.wc_ldaddr {
+}
+
+.wc_list_pager {
+}
+
+.wc_tab {
+    margin: 22px 20px;
+}
+
+    .wc_tab a {
+        color: #ccc;
+    }
+
+.wc_contentdetails {
+    margin-left: 58px;
+}
+
+.wc_head {
+}
+
+.wc_headbutton {
+}
+
+.wc_detailstitle {
+}
+
+.wc_lefttitle {
+}
+.wc_detailsinfo li{
+    width:490px
+}
+.wc_comfirm_cancel {
+    margin-top:170px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #5bc0de;
+    font-weight: bold;
+}
+
+.list-group-item {
+    border: none;
+}

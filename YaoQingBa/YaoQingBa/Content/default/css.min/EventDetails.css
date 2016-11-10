@@ -1,0 +1,280 @@
+﻿
+.ed_head_title {
+}
+
+    .ed_head_title .head_title {
+        padding-top: 16px;
+    }
+
+
+
+.head_date {
+    color: #b6b6b6;
+}
+
+.ed_head_content a {
+    position: relative;
+    top: -2px;
+}
+
+.ed_head_user img {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    float: left;
+}
+
+.ed_head_user .title_name {
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 8px;
+}
+
+.title_addr {
+    margin: -19px 0px 0px 28px;
+}
+
+.ed_content_text {
+    white-space: normal;
+}
+
+.ed_no_enroll {
+    
+    padding-left: 5px;
+}
+
+.ed_enroll_details {
+    max-height: 158px;
+    overflow: auto;
+}
+
+    .ed_enroll_details img {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+    }
+
+.ed_enroll_name {
+    max-width: 72px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ed_enroll_details li {
+    float: left;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.ed_comment {
+    margin-bottom: 58px;
+}
+
+.ed_write_comment {
+}
+
+.ed_comment_details {
+   
+}
+
+
+
+    .ed_comment_details img {
+        width: 36px;
+        height: 36px;
+        border-radius: 6px;
+        float: left;
+    }
+.more_comment {text-align: center;
+}
+.ed_no_comment {
+    
+    padding-left: 5px;
+}
+
+.ed_comment_content {
+    margin-left: 45px;
+    font-size: 1.4rem;
+}
+
+.ed_comment_name {
+    padding-bottom: 5px;
+}
+
+.ed_comment_date {
+    color: #999;
+    font-size: 1.2rem;
+}
+
+.ed_comments {
+    color: #999;
+    white-space: normal;
+    word-break: break-all;
+    padding-bottom: 8px;
+}
+
+.ed_comments_details {
+    background-color: #efeff4;
+}
+.ed_comments_details ul{
+    padding-top:8px;
+}
+
+    .ed_comments_details i {
+        font-size: 1.4rem;
+        margin-left: 5px;
+        position: relative;
+        bottom: 1px;
+    }
+
+/*底部菜单*/
+.ed_bottom_menu {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 47px;
+    border-top: 1px solid #d7d7d7;
+}
+
+.ed_bottom_comment {
+    float: left;
+    width: 30%;
+    text-align: center;
+    background-color: #fff;
+    border-right: 1px solid #e9e9e9;
+    color: #999;
+    height: 47px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Safari */
+}
+
+.ed_bottom_collect {
+    float: left;
+    width: 30%;
+    text-align: center;
+    background-color: #fff;
+    color: #999;
+    height: 47px;
+}
+
+.ed_bottom_enroll {
+    float: left;
+    width: 40%;
+    text-align: center;
+    background-color: #0099e9;
+    color: #fff;
+    line-height: 47px;
+}
+
+    .ed_bottom_enroll i {
+        color: #fff;
+        font-size: 2.2rem;
+    }
+
+    .ed_bottom_enroll a {
+        position: relative;
+        top: -2px;
+        font-size: 1.6rem;
+        color: #fff;
+    }
+
+.ed_bottom_text {
+    position: relative;
+    right: 3px;
+    margin: 2px 0;
+}
+
+/*点击收藏图标变黄色*/
+.ed_bottom_collect_hover .iconfont {
+    color: #f3eb28;
+}
+
+/*遮罩层*/
+#bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    background-color: #999;
+    -moz-opacity: 0.7;
+    opacity: .70;
+    filter: alpha(opacity = 70);
+}
+/*评论弹出框*/
+.ed_comment_popup {
+    z-index: 9999999;
+    display: none;
+    position: fixed;
+    background-color: #efeff4;
+    width: 100%;
+}
+
+.ed_comment_title {
+    text-align: center;
+}
+
+    .ed_comment_title a {
+        color: #67c0cf;
+        margin: 0 5px;
+    }
+
+.ed_comment_popup textarea {
+    resize: none;
+    width: 100%;
+    height: 80px;
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+}
+/*报名弹出框*/
+.ed_enroll_box {
+    display: none;
+    z-index: 9999999;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn_cancel {
+    text-align: right;
+}
+
+    .btn_cancel i {
+        color: #fff;
+        font-size: 2.4rem;
+    }
+
+.ed_enroll_popup {
+    background-color: #fff;
+}
+
+    .ed_enroll_popup .ed_enroll_title {
+        text-align: center;
+    }
+
+.ed_enroll_next {
+    padding: 20px;
+}
+
+
+
+.ed_enroll_popup input {
+    margin: 10px 5px 5px 8px;
+}
+
+.ed_enroll_qty {
+    color: #999;
+    padding-top: 8px;
+}
+
+.ed_enroll_pay {
+    color: #ff9933;
+    font-size: 1.6rem;
+}
+
